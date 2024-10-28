@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Keania+One&family=Lobster&family=Russo+One&display=swap');
+
+:root{
+    --primary-color: #149014;
+    --secundary-color: #119D8F;
+    --terciary-color: #327ACE;
+    --terciary-color2: #DC7550;
+    --primary-dark: #0A0C10;
+    --light-dark: #424345; 
+    --dark-grey: #7D7E80;
+    --blue-grey: #95A1AD;
+    --grey-default: #8BA5A2;
+    --grey: #B9B9B9;
+    --light-grey: #D8D8D8;
+    --white: #DDDEE4;
+    --gradiente: linear-gradient(180deg, #98FB98 0.35%, #40E0D0 122.8%);;
+    --transp-stroke: var(--Transparent, rgba(255, 255, 255, 0.13));;
+    --transp-back: var(--Transparent-Background, rgba(255, 255, 255, 0.03));;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Inter", system-ui;
+    color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 64px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+html{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+body{
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: var(--primary-dark);
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    /* 120px */
+    text-transform: capitalize;
+    background: var(--gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+
+    /* H2 */
+    font-family: Inter;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 101.2px */
+    text-transform: capitalize;
+    background: var(--gradient, linear-gradient(180deg, #98FB98 0%, #40E0D0 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    /* H3 */
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 44px */
+    text-transform: capitalize;
+}
+
+h4 {
+    /* H4 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    /* 26.4px */
+    text-transform: capitalize;
+}
+
+h5 {
+    /* H5 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 20px */
+    text-transform: capitalize;
+}
+
+h6 {
+    /* H6 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 18px */
+    text-transform: capitalize;
+}
+
+p {
+    /* p1 */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 33px */
+}
+
+p.medium {
+    /* p2 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+p.small {
+    /* p3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    text-transform: capitalize;
+}
+
+span {
+    /* label regular */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+span.medium {
+    /* label medium */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 27px */
+}
+
+span.semibold {
+    /* label semibold */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+    text-transform: capitalize;
+}
+
+.logo p{
+    margin: 30px;
+}
+
+.section{
+    height: 980px;
+    width: 100%;
+    border: 1px solid black;
+}
