@@ -1,0 +1,42 @@
+/*@import url(../pages/globals.css);*/
+
+.h {
+    display: flex;
+    max-width: 1520px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px auto;
+}
+
+.logo {
+    width: 84px;
+    height: 84px;
+    margin-left: 10px;
+}
+
+.navMenu {
+    display: flex;
+    width: 681px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.itemMenu {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--Transparent, rgba(255, 255, 255, 0.13));
+    background: var(--Transparent-Background, rgba(255, 255, 255, 0.03));
+
+    &:hover{
+        border-radius: 16px;
+        background: var(--Secundary, #119D8F);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+}
