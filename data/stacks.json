@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PHP",
+    "colorClass": "neoncyan"
+  },
+  {
+    "name": "Tailwind CSS",
+    "colorClass": "neonpink"
+  },
+  {
+    "name": "Alpine.js",
+    "colorClass": "blue-500"
+  },
+  {
+    "name": "Laravel",
+    "colorClass": "blue-500"
+  },
+  {
+    "name": "Livewire",
+    "colorClass": "green-500"
+  },
+  {
+    "name": "PostgreSQL",
+    "colorClass": "purple-500"
+  }
+]
